@@ -1,14 +1,14 @@
-# graph-SIR: A Graph-Based Stochastic Rumour Spread Model for Social Networks
+# graph-SIR: a Social Network Rumour Spread Model
 
 Simulating the spread of a rumour in a social network with Python.
 
-The spreading of rumours across a population bear many similarities to epidemics. Variants of the [SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model) used in epidemiology have also been used to model rumour spread. However, this model contains the unrealistic assumption that the network is fully connected. That is, any person can contact anyone else inside of it.
+The spreading of rumours across a population bear many similarities to epidemics - variants of the [SIR model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model) from epidemiology have been used to model rumour spread. However, this model contains the unrealistic assumption that the social network is fully connected. That is, a person can directly contact anyone else inside of it.
 
-Our stochastic and agent-based approach removes this assumption, incorporating information about the social network for a more realistic model.
+To improve on this, our stochastic and agent-based approach incorporates information about the social network for a more realistic model.
 
 ![](sir_visualization.gif)
 
-More details can be found in *section 3* of the project writeup, included in this repository.
+More details can be found in section 3 of the project writeup, included in this repository.
 
 ## Getting started
 

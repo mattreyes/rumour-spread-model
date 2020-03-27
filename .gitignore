@@ -1,0 +1,5 @@
+sim_output/sir_*.png
+.ipynb_checkpoints/
+.ipython/
+.mypy_cache/
+.local/

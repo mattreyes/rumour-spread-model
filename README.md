@@ -6,10 +6,10 @@ The spreading of rumours across a population bear many similarities to epidemics
 
 To improve on this, our stochastic and agent-based approach incorporates information about the social network for a more realistic model.
 
-![](sir_visualization.gif)
+![](sirs_visualization.gif)
 
 More details can be found in section 3 of the project writeup, included in this repository.
 
 ## Getting started
 
-Follow [these instructions](https://git.skewed.de/count0/graph-tool/wikis/installation-instructions#installing-using-docker) to install the graph-tool library with Docker.
+Run `docker run -p 8888:8888 -p 6006:6006 -it -u user -w /app -v "$(pwd):/app" tiagopeixoto/graph-tool jupyter notebook --ip 0.0.0.0` to run the graph-tool library with Docker in a Python notebook. More installation info [here](https://git.skewed.de/count0/graph-tool/wikis/installation-instructions#installing-using-docker) 
